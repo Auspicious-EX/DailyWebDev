@@ -1,4 +1,5 @@
-[![MasterHead](https://github.com/Auspicious-EX/Pixet/blob/main/sreenshort/Git%20Repos%20banner.gif?raw=true)](https://)
+[![MasterHead](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Repo%20Images/Git%20Repos%20banner.gif?raw=true)](https://)
+
 
 # DailyWebDev
 Welcome to the Daily Web Development Challenge! 🚀
