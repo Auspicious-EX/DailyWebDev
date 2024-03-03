@@ -1,4 +1,4 @@
-![Banner](images\banner.gif)
+![Banner](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%201/images/banner.gif?raw=true)
 
 # Tutorial **1** Notes
 
@@ -8,7 +8,7 @@
 
 **Browser**: A web browser is software that enables users to access and view websites on the internet. Browsers interpret HTML, CSS, and JavaScript code to render web pages visually. When you type a web address into your browser or click on a link, the browser sends a request to the server hosting that website. Once the server receives the request, it processes it and sends back the requested web page, which the browser then displays to the user.
 
-![Server](images\image1.jpg)
+![Server](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%201/images/image1.jpg?raw=true)
 
 **Example:**
 
