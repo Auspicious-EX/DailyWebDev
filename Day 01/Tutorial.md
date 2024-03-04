@@ -1,5 +1,4 @@
-![Banner](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%201/images/banner.gif?raw=true)
-
+![Banner](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%2001/images/banner.gif?raw=true)
 # Tutorial **1** Notes
 
 **Client**: The client is typically a device such as a computer, smartphone, or tablet that requests information or resources from a server. Clients can be web browsers (like Chrome, Firefox, Safari), mobile apps, or any software that accesses web content.
@@ -8,7 +7,7 @@
 
 **Browser**: A web browser is software that enables users to access and view websites on the internet. Browsers interpret HTML, CSS, and JavaScript code to render web pages visually. When you type a web address into your browser or click on a link, the browser sends a request to the server hosting that website. Once the server receives the request, it processes it and sends back the requested web page, which the browser then displays to the user.
 
-![Server](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%201/images/image1.jpg?raw=true)
+![Server](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%2001/images/image1.jpg?raw=true)
 
 **Example:**
 
