@@ -1,4 +1,4 @@
-![Banner]()
+![Banner](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%2002/images/banner.gif?raw=true)
 
 # Tutorial **2** Notes
 
