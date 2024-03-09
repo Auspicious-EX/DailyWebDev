@@ -1,3 +1,3 @@
-# Tutorial 5
+![Banner](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%2005/images/banner.gif?raw=true)
 
-This is the content of tutorial 5.
+# Tutorial **5** Notes
