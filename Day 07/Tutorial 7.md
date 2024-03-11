@@ -54,6 +54,5 @@ The `<form>` tag is used to create a form in HTML. It can include various attrib
 - In this example, the input field accepts only valid email addresses.
 
 <hr>
-<hr>
 
-### Source: <a href="https://www.codewithharry.com/tutorial/html-forms/" target="_blank">
+### Source: https://www.codewithharry.com/tutorial/html-forms/
