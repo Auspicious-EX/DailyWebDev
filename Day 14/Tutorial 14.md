@@ -25,7 +25,7 @@ h1 {
 }
 ```
 
-## enefits of CSS
+## Benefits of CSS
 - Separation of Content and Presentation: Keeps HTML clean and focuses on structure while CSS handles the design.
 - Reusability: CSS rules can be reused across multiple pages, reducing repetition and effort.
 - Accessibility: Proper use of CSS improves accessibility for different devices and users.
