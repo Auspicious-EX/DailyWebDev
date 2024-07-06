@@ -1,24 +1,18 @@
 import os
 
-# Function to create folders and files with the specified structure
-def create_folders_and_files():
-    # Loop to create folders from Day 21 to Day 100
-    for day in range(21, 101):
-        # Create the folder name
-        folder_name = f"Day {day}"
-        
-        # Create the folder if it does not exist
-        os.makedirs(folder_name, exist_ok=True)
-        
-        # Define the file name with the respective tutorial number
-        file_name = f"Tutorial{day}.md"
-        
-        # Define the path to the file within the folder
-        file_path = os.path.join(folder_name, file_name)
-        
-        # Write the specified content into the file
-        with open(file_path, 'w') as file:
-            file.write(f"# Tutorial **{day}** Notes")
+# Get the current directory where the script is located
+base_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Run the function
-create_folders_and_files()
+# Loop through Day 21 to Day 100
+for day in range(21, 101):
+    # Construct the folder name
+    day_folder = f'Day {day}'
+    # Construct the path to the day folder
+    day_folder_path = os.path.join(base_dir, day_folder)
+    # Construct the path to the 'image' folder inside the day folder
+    image_folder_path = os.path.join(day_folder_path, 'image')
+    
+    # Create the 'image' folder if it doesn't exist
+    os.makedirs(image_folder_path, exist_ok=True)
+
+print("Image folders created successfully.")
