@@ -1,3 +1,8 @@
 # Tutorial 19
 
-This is the content of tutorial 19.
+## Exercise 2 :
+**Write html and css code to style a paragraph inside a div which contains 5 other paragraphs. The first paragraph must have background color yellow and text color red. The other paragraphs must have background color blue and text color white. The HMTL is written below for your reference. Do not change this html**
+
+
+***solution in html file***
+    
