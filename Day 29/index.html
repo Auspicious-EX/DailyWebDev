@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        @media only screen and (max-width:455px){
+            body{
+                background-color: pink;
+            }        
+            .boxes{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        @media screen and (orientation: landscape) {
+            body{
+                color: purple;
+                border: 2px solid purple;
+            }
+        }
+        
+        .boxes{
+            display: flex;
+        }
+        .box{
+            width: 344px;
+            height: 344px;
+            background-color: blueviolet;
+            padding: 3px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae quod ad necessitatibus facilis ut rem magni quas molestiae quaerat deserunt. Harum eligendi soluta tempora. Expedita iure, nemo aliquam fuga at earum. Omnis.
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
