@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms MasterClass</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            margin: 20px;
+        }
+
+        .translate-example {
+            transform: translate(50px, 100px);
+        }
+
+        .rotate-example {
+            transform: rotate(45deg);
+        }
+
+        .scale-example {
+            transform: scale(1.5, 0.5);
+        }
+
+        .skew-example {
+            transform: skew(30deg, 20deg);
+        }
+
+        .matrix-example {
+            transform: matrix(1, 0.5, -0.5, 1, 30, 50);
+        }
+
+        .combined-example {
+            transform: translate(50px, 100px) rotate(45deg) scale(1.5, 0.5) skew(30deg, 20deg);
+        }
+
+        .origin-example {
+            transform-origin: 20% 40%;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box translate-example">Translate</div>
+        <div class="box rotate-example">Rotate</div>
+        <div class="box scale-example">Scale</div>
+        <div class="box skew-example">Skew</div>
+        <div class="box matrix-example">Matrix</div>
+        <div class="box combined-example">Combined</div>
+        <div class="box origin-example">Origin</div>
+    </div>
+</body>
+</html>
