@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container {
+            border-color: azure;
+            height: 80vh;
+            width: 30vw;
+            
+
+
+        }
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            width: 100px;
+            height: 100px;
+            border-radius:40%;
+            background-color: aqua;
+            /* animation-name: Shubhamanimationa;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(1,-0.08, 0.39, 1.13);
+            animation-delay: 1s;
+            /* animation-direction: alternate-reverse;
+            animation-play-state: paused;
+            animation-play-state: running; */
+            animation: Shubhamanimationa 3s ease-in-out 1s ,
+            S11 2s ease-in-out 1s ;
+            animation-direction: alternate-reverse;
+
+        }
+
+        @keyframes Shubhamanimationa{
+            from {
+                background-color: brown;
+            }
+            to {
+                transform: translateX(100px);
+                background-color: rgb(105, 89, 119);
+                color: azure;
+                
+            }
+        }
+
+        @keyframes S11 {
+            0%{
+                transform: rotate(100deg);
+                background-color: aquamarine;
+
+            }
+            20%{
+                transform: rotate(200deg);
+                background-color: blue;
+
+            }
+            40%{
+                transform: rotate(220deg);
+                background-color: brown;
+
+            }
+            60%{
+                transform: rotate(300deg);
+                background-color: blanchedalmond;
+
+            }
+            80%{
+                transform: rotate(320deg);
+                background-color: darkorange ;
+
+            }
+            100%{
+                transform: rotate(360deg);
+                background-color: forestgreen;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            BOX
+        </div>
+    </div>
+
+    
+</body>
+</html>
