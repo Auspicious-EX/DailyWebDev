@@ -1,8 +1,10 @@
+![Banner](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%2044/banner.gif?raw=true)
+
 
 
 # Tutorial **44** Notes
 
-[](https://www.figma.com/)(Figma)
+![Go](https://www.figma.com/)(Figma)
 
 ## Figma
 
