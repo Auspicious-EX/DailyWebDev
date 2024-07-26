@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        var rand = Math.random()
+        let first , second, third
+        if (rand<0.33){
+            First= "crazy"
+        
+        }
+        else if(rand<0.66 && rand >= 0.33){
+            first = "Amezing"
+        }
+        else{
+            first = "Fire"
+        }
+
+        rand = Math.random()
+        
+        if (rand<0.33){
+            second= "crazy"
+        
+        }
+        else if(rand<0.66 && rand >= 0.33){
+            second = "Engine"
+        }
+        else{
+            second = "foods"
+        }
+
+        rand = Math.random()
+
+        if (rand<0.33){
+            Third = "Bros"
+        
+        }
+        else if(rand<0.66 && rand >= 0.33){
+            Third  = "limited"
+        }
+        else{
+            Third  = "Hub"
+        }
+
+        for (let index = 0; index < 10; index++) {
+
+            console.log(`${first}${second}${Third}`)
+            
+        }
+        
+        
+    </script>
+    
+</body>
+</html>
