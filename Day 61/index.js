@@ -1,4 +1,14 @@
 function createCard(titlename, cname, views, time, dur, backgroundImage) {
+    // Convert views to K or M format if applicable
+    let formattedViews;
+    if (views < 10000) {
+        formattedViews = (views / 1000) + "K";
+    } else if (views < 10000000) {
+        formattedViews = (views / 100000) + "M";
+    } else {
+        formattedViews = views;
+    }
+
     const container = document.createElement('div');
     container.className = 'container';
 
@@ -32,7 +42,7 @@ function createCard(titlename, cname, views, time, dur, backgroundImage) {
 
     const viewsSpan = document.createElement('span');
     viewsSpan.className = 'views';
-    viewsSpan.textContent = `${views}K views`;
+    viewsSpan.textContent = `${formattedViews} views`;
     discDiv.appendChild(viewsSpan);
 
     const timeSpan = document.createElement('span');
@@ -61,9 +71,8 @@ createCard(
 createCard(
     "Introduction to Backend | Sigma Web Dev video #78",
     "CodeWithHarry",
-    50,
+    500000,
     7,
     "31:22",
     "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw"
 );
-
