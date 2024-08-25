@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter</title>
+    <style>
+        #counter {
+            font-size: 2em;
+            margin: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="btn" id="decrement">-</button>
+        <span id="counter">0</span>
+        <button class="btn" id="increment">+</button>
+    </div>
+<script>
+    // Select the counter display and the buttons
+const counterDisplay = document.getElementById('counter');
+const incrementBtn = document.getElementById('increment');
+const decrementBtn = document.getElementById('decrement');
+
+// Initialize the counter value
+let counterValue = 0;
+
+// Function to update the counter display
+function updateCounter() {
+    counterDisplay.textContent = counterValue;
+}
+
+// Event listener for the increment button
+incrementBtn.addEventListener('click', () => {
+    counterValue++;
+    updateCounter();
+});
+
+// Event listener for the decrement button
+decrementBtn.addEventListener('click', () => {
+    if (counterValue > 0) {
+        counterValue--;
+        updateCounter();
+    }
+});
+
+</script>
+</body>
+</html>
