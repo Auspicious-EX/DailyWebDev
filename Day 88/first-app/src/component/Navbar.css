@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+
+}
+
+nav {
+    background-color: thistle;
+    display: flex;
+    padding: 28px;
+}
+
+ul{
+    display: flex;
+    gap:34px;
+}
+
+li{
+    list-style-type: none;
+}
