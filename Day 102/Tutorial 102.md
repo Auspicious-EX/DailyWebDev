@@ -1,3 +1,4 @@
+![Banner](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%20102/IMG/banner.gif?raw=true)
 # Tutorial 102
 
 Write your content here.
