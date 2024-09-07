@@ -1,4 +1,4 @@
-[![MasterHead](https://github.com/Auspicious-EX/Lockex-PasswordManager/blob/main/src/assets/Demo-Picture/BANNER.gif?raw=true)](https://github.com/Auspicious-EX/DailyWebDev)
+[![MasterHead](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%20112/get-me-a-chai/IMG/banner.gif?raw=true)](https://github.com/Auspicious-EX/DailyWebDev)
 
 # Tutorial 112: 
 make a project of `get me a chai`
@@ -65,9 +65,9 @@ Get Me a Chai is a web platform designed for developers who need funds to comple
 Here are some screenshots of the Lockex app showcasing its user interface and features:
 
 
-   ![Homepage](https://github.com/Auspicious-EX/Lockex-PasswordManager/blob/main/src/assets/Demo-Picture/1.png?raw=true)
+   ![Homepage](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%20112/get-me-a-chai/IMG/2.png?raw=true)
 
-   ![Credential Management](https://github.com/Auspicious-EX/Lockex-PasswordManager/blob/main/src/assets/Demo-Picture/2.png?raw=true)
+   ![Credential Management](https://github.com/Auspicious-EX/DailyWebDev/blob/main/Day%20112/get-me-a-chai/IMG/1.png?raw=true)
 
 ## Technologies Used
 
