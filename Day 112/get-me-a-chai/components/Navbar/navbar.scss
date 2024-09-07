@@ -1,0 +1,108 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1266px;
+    height: 98px;
+    background-color: transparent;
+}
+
+.leftNav {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+
+    .logo {
+        position: absolute;
+        margin: auto 20px;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        background-color: black;
+        color:  white;
+        height: 80px;
+        left: -54px;
+        top: 10px;
+        width: 330px;
+        border-radius: 65px;
+        
+        img{
+            width: 43px;
+            position: relative;
+            left: 60px;
+            top: -5px;
+        }
+        span {
+            left: 60px;
+            position: relative;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 22px;
+            top: 6px;
+        }
+    }
+}
+
+.rightNav {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+
+        .dropdownBtn {
+            color: white;
+            border: none;
+            background-color: black;
+            position: relative;
+            padding: 15px;
+            border-radius: 20px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+            gap: 3px;
+            position: absolute;
+            margin-top: 160px;
+            right: 25px;
+
+            li {
+                list-style-type: none;
+                text-align: center;
+                padding: 7px;
+                border-radius: 20px;
+                color: white;
+                background-color: black;
+                position: relative;
+                width: 100px;
+            }
+        }
+    }
+
+    .loginBtn {
+        width: 90px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        padding: 2px; 
+        position: relative;
+        top: -11px;
+        background-color: black;
+        color: white;
+    }
+}
