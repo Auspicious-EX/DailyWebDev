@@ -24,7 +24,7 @@ Get Me a Chai is a web platform designed for developers who need funds to comple
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Auspicious-EX/GetMeAChai.git
+   git clone https://github.com/Auspicious-EX/Get-Me-A-Chai.git
    ```
 
 2. Install dependencies:
